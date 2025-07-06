@@ -1,0 +1,62 @@
+#anh_tgdd{
+    
+    padding: 10px ;
+}
+#thegioididong{
+    background-color: gold;
+   text-align: center;
+    padding: 80px;
+    margin: 0;
+    color: black;
+} 
+.souct_item{
+    flex: 25%;
+     text-align: center;
+    
+}
+#souct_iphone{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+
+}
+.souct_img{
+    width: 25%;
+} 
+.souct_tile{
+    
+     font-size: 150%;
+    padding: 10px 20px ;
+}
+.souct_ts{
+   display: inline-block; 
+   background-color: #c8c0c0d6;
+   padding: 8px;
+}
+nav{
+    background-color: azure;
+    text-align: center;
+    overflow: hidden;
+   
+}
+nav a:hover{
+      background-color: aliceblue;
+    color: black;
+} 
+nav a{
+    color: aliceblue;
+    background-color: aqua;
+    float: left;
+    display: block;
+    padding: 20px;
+} 
+@media (Max-width: 800px){
+    #iphone{
+        flex: 100%;
+    }
+}
+.souct_item{
+    flex: 25%;
+    
+    
+}

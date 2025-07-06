@@ -1,0 +1,115 @@
+
+
+#Xinchao{
+    background-color: aqua;
+    text-align: center;
+    padding: 80px;
+    margin: 0;
+}
+nav{
+    color: azure;
+    background-color: rgb(14, 180, 209);
+    text-align: unset;
+   overflow: hidden;
+    
+}
+nav a {
+    color: aliceblue;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+    float: left;
+} 
+nav a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+nav a.menu_lef{
+    float: left;
+}
+nav a.menu_reght{
+    float: right;
+}
+#left_silede{
+    flex: 30;
+    background-color:chartreuse;
+    padding: 10px 20px;
+}
+#right_silede{
+    flex:70; 
+    background-color: beige;
+    padding: 10px 20px;
+} 
+#flex_contain{
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+footer{
+    background-color: black;
+    color: white; 
+    padding:   20px;
+    text-align: center;
+
+}
+footer a{
+    color: white;
+}
+table{
+    border: solid;
+}
+/* styling the table */ 
+table{
+  
+    border-collapse: collapse;
+    
+}
+table td , table th {
+        border: 1px solid #ddd; 
+        padding: 8px;
+} 
+table tr:nth-child(even){background-color: #f2f2f2;}
+table:hover {background-color: #ddd;} 
+table th{
+            padding: 10px; 
+            padding-bottom: 10px; 
+            text-align: center;
+            background-color: aquamarine;
+            color: #140808ef;
+} 
+
+
+.course_item{
+     flex: 33%;
+    text-align: center;
+} 
+.course_ing{
+   
+   width:  90%;
+}
+#course_contain{
+    display: flex;
+    flex-wrap: wrap;
+} 
+.course_tile{
+    font-size: 150%;
+    padding: 10px 20px ;
+}
+@media (Max-width: 800px) {
+    #left_silede{
+        flex: 100%;
+    }
+    #right_silede{
+        flex: 100%;
+    }
+}
+
+#flex_contain{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.course_item{
+    flex: 30%;
+    
+} 
